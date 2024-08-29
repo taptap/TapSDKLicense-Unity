@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dependencies>
+    <!-- Android maven dependencies -->Ï
+    <androidPackages>
+        <repositories>
+            <repository>https://repo.maven.apache.org/maven2</repository>
+        </repositories>
+        <androidPackage spec="com.taptap.sdk:tap-license:4.3.10"/>
+    </androidPackages>
+
+    <!-- iOS Cocoapod dependencies can be specified by each iosPod element. -->
+
+</dependencies>
