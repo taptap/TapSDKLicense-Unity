@@ -4,7 +4,7 @@ using TapSDK.Core.Internal.Utils;
 namespace TapSDK.License {
     public class TapTapLicense {
 
-        public static readonly string Version = "4.7.0";
+        public static readonly string Version = "4.8.0-beta.1";
         
         static readonly ITapLicenseBridge license;
 
