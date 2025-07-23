@@ -17,6 +17,11 @@ namespace TapSDK.License.Mobile
             EngineBridge.GetInstance().Register(TDS_LICENSE_SERVICE_CLZ, TDS_LICENSE_SERVICE_IMPL);
         }
 
+        public void Init()
+        {
+            // Android 原生内部处理
+        }
+
         public void RegisterLicencesCallback(ITapLicenseCallback callback)
         {
             var command = new Command.Builder()

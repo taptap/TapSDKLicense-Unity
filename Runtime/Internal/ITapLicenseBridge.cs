@@ -1,6 +1,8 @@
 ﻿
 namespace TapSDK.License.Internal {
     public interface ITapLicenseBridge {
+
+        void Init();
         void RegisterLicencesCallback(ITapLicenseCallback callback);
 
         void RegisterDLCCallback(ITapDlcCallback callback);

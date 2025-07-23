@@ -1,5 +1,8 @@
 ﻿namespace TapSDK.License {
-    public interface ITapLicenseCallback {
+    public interface ITapLicenseCallback
+    {
         void OnLicenseSuccess();
+
+        void OnLicenseFailed();
     }
 }

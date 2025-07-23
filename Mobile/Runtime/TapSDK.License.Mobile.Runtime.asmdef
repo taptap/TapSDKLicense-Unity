@@ -6,8 +6,7 @@
         "GUID:10560023d8780423cb943c7a324b69f2"
     ],
     "includePlatforms": [
-        "Android",
-        "iOS"
+        "Android"
     ],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
